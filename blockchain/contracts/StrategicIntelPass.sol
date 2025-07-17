@@ -49,7 +49,7 @@ contract StrategicIntelPass is ERC721, Ownable {
         
         // Set the high-value initial price: 100,000 USDC
         // USDC has 6 decimals, so we multiply by 10^6.
-        mintPrice = 100_000 * (10**6);
+       mintPrice = 100_000 * (10**6); // Price: 100,000 USDC
     }
 
     // --- Core Public Function: Minting ---

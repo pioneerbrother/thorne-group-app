@@ -1,8 +1,8 @@
 {
-  "strategicIntelPassAddress": "0xc877d4922626A023edAc3F14Dfd468910c35f677",
+  "strategicIntelPassAddress": "0xB91E743332e823F160f6f10Df7E73D941A89B00f",
   "usdcAddress": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
   "treasuryWallet": "0xcC853a5bc3f4129353DB6d5f92C781010167D288",
   "network": "polygonMainnet",
   "deployer": "0xcC853a5bc3f4129353DB6d5f92C781010167D288",
-  "timestamp": "2025-07-16T19:11:13.754Z"
+  "timestamp": "2025-07-17T10:25:43.398Z"
 }
