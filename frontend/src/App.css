@@ -1,0 +1,35 @@
+/* App.css - Global Styles */
+
+/*
+  Using border-box makes layout math more intuitive.
+  The width and height properties include content, padding, and border,
+  but not the margin.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  Remove default margin for a clean baseline.
+  Set a base font family for the entire app.
+*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa; /* A light, neutral background for the whole app */
+  color: #212529; /* Default text color */
+}
+
+/*
+  This ensures the main app container takes up at least the full height
+  of the viewport, which is useful for centering content vertically.
+*/
+.app-container {
+  min-height: 100vh;
+}

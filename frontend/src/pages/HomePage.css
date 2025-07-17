@@ -1,0 +1,127 @@
+/* HomePage.css - Modern, Centered Design */
+
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to top */
+    min-height: 100vh;
+    background-color: #ffffff; /* A clean, stark white background */
+    padding: 40px 20px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.content-box {
+    max-width: 800px;
+    width: 100%;
+    text-align: center; /* Center all text content by default */
+}
+
+/* Header Component Styles (if not already defined) */
+.app-header {
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 60px; /* More space below the header */
+    border-bottom: 1px solid #e9ecef;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the logo and text */
+    text-decoration: none;
+    color: #212529;
+}
+
+.logo-img {
+    height: 45px;
+    margin-right: 15px;
+}
+
+.logo-text {
+    font-size: 2rem;
+    font-weight: 600;
+}
+/* --- End Header Styles --- */
+
+
+.main-heading {
+    font-size: 3rem;
+    font-weight: 300; /* Lighter font weight for a modern feel */
+    color: #212529;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.bio-manifesto {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #495057;
+    margin: 0 auto 50px auto; /* Center the paragraph block */
+    max-width: 650px; /* Constrain width for readability */
+    text-align: center;
+}
+
+.findings-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.findings-title {
+    font-size: 1.8rem;
+    color: #343a40;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.findings-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the links within the list */
+    gap: 15px; /* Space between links */
+}
+
+.finding-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #0056b3;
+    text-decoration: none;
+    font-size: 1.15rem;
+    border: 1px solid transparent; /* Transparent border for spacing */
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.finding-link:hover {
+    color: #003d7c;
+    background-color: #f0f4f8; /* Subtle hover effect */
+    border-color: #dbe4ee;
+}
+
+/* Modern UI Button */
+.cta-button {
+    display: inline-block;
+    padding: 16px 38px;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif; /* A cleaner font for the button */
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(145deg, #3a3a3a, #1a1a1a);
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+    background: linear-gradient(145deg, #4d4d4d, #2b2b2b);
+    transform: translateY(-3px);
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.25), inset 0 2px 0 rgba(255, 255, 255, 0.1);
+}
+
+.cta-button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.1);
+}
