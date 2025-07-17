@@ -1,0 +1,22 @@
+# Netlify Build Configuration for The Thorne Group (Vite Single-Page Application)
+# Place this file in your `frontend` directory.
+
+[build]
+  # This command is run to build your site.
+  # It should be "npm run build" for Vite projects.
+  command = "npm run build"
+  
+  # This is the directory that contains the deploy-ready HTML files and assets.
+  # Vite defaults to "dist".
+  publish = "dist"
+  
+  # This defines the directory where Netlify should look for serverless functions.
+  # It's relative to the project root (which is `frontend/` in your case).
+  functions = "netlify/functions"
+
+# Redirect rule for Single-Page Applications (SPA)
+# This ensures that all routes (e.g., /portal) are handled by index.html for React Router.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
