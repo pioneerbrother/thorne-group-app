@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /portal/ # Prevent search engines from crawling gated content
+
+Sitemap: https://thornegroup.info/sitemap.xml
